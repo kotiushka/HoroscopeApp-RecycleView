@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZodiacApp</string>
+    <string name="item_zodiacphoto_desc">zodiacPhoto</string>
+    <string name="zodiacs_logo">HOROSCOPES</string>
+    <string name="see_main">Смотреть</string>
+    <string name="wood_logo_desc">wood_logo</string>
+    <string name="not_internet_connect">Нет подключения к интернету!</string>
+    <string name="get_more_info_full">Подробнее</string>
+    <string name="returnZodiacMore">Вернуть</string>
+    <string name="more_info_zodiac_full">Подробнее</string>
+    <string name="return_zodiac_full">Назад</string>
+</resources>

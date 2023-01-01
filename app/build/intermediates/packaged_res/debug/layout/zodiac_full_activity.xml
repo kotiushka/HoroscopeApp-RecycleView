@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/imageZodiacMore"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            app:srcCompat="@drawable/gemini" />
+
+        <TextView
+            android:id="@+id/nameZodiacMore"
+            style="@style/zodiacMoreText"
+            android:gravity="start"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/imageZodiacMore"
+            android:text="Близнецы"
+            android:textColor="@color/yellow"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dateShortZodiacMore"
+            style="@style/zodiacMoreText"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_below="@id/nameZodiacMore"
+            android:layout_alignStart="@id/nameZodiacMore"
+            android:text="Май 21 - Июнь 21"
+            android:textColor="@color/yellow"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/dateFullZodiacMore"
+            style="@style/zodiacMoreText"
+            android:layout_below="@id/dateShortZodiacMore"
+            android:layout_alignStart="@id/nameZodiacMore"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:text="Общий гороскоп на сегодня, 30 декабря, 2022"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/infoZodiacMore"
+            style="@style/zodiacMoreText"
+            android:layout_below="@id/imageZodiacMore"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/custom_frame"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="Постарайтесь не беспокоиться о том, как Вы проводите время с друзьями или близкими. Просто наслаждайтесь, ведь поток позитивной социальной энергии вскоре может иссякнуть."
+            android:textSize="23sp" />
+
+
+        <Button
+            android:id="@+id/buttonZodiacMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoZodiacMore"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/dark_blue"
+            android:fontFamily="serif"
+            android:text="@string/more_info_zodiac_full"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonZodiacRet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/buttonZodiacMore"
+            android:layout_toEndOf="@id/buttonZodiacMore"
+            android:backgroundTint="@color/dark_blue"
+            android:fontFamily="serif"
+            android:onClick="returnButton"
+            android:text="@string/return_zodiac_full"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingButtonZodiacMore"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_below="@id/infoZodiacMore"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/dark_blue"
+            android:src="@drawable/ic_share"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            app:fabSize="mini" />
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

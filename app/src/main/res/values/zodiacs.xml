@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="zodiacDates">
+        <item>21.03 – 20.04</item>
+        <item>21.04 – 21.05</item>
+        <item>22.05 – 21.06</item>
+        <item>22.06 – 22.07</item>
+        <item>23.07 – 23.08</item>
+        <item>24.08 – 23.09</item>
+        <item>24.09 – 23.10</item>
+        <item>24.10 – 22.11</item>
+        <item>23.11 – 21.12</item>
+        <item>22.12 – 20.01</item>
+        <item>21.01 – 18.02</item>
+        <item>19.02 – 20.03</item>
+    </string-array>
+
+    <array name="zodiacImages">
+        <item>@drawable/aries</item>
+        <item>@drawable/taurus</item>
+        <item>@drawable/gemini</item>
+        <item>@drawable/cancer</item>
+        <item>@drawable/leo</item>
+        <item>@drawable/virgo</item>
+        <item>@drawable/libra</item>
+        <item>@drawable/scorpio</item>
+        <item>@drawable/sagittarius</item>
+        <item>@drawable/capricorn</item>
+        <item>@drawable/aquarius</item>
+        <item>@drawable/pisces</item>
+
+    </array>
+
+</resources>
