@@ -1,9 +1,9 @@
 # HoroscopeApp-RecycleView
 
-**Как выглядит приложение:**
-
 ![](review.gif)
 
-Приложение отправляет GET запрос чтобы получить информацию с сайта https://orakul.com/ т.е информация о прогнозах знака зодиака будет динамическая.
+**How the application looks:**
 
-Выставил для себя, но возможно это сможет кому-то помочь. 
+The application sends a GET request to fetch information from the website https://orakul.com/. This means that the horoscope information for the zodiac signs will be dynamic.
+
+I set this up for myself, but it might help someone else as well.
